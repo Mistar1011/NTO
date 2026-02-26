@@ -146,7 +146,7 @@ if __name__ == "__main__":
         
         combined = cv2.addWeighted(flipped_frame, 0.7, mask, 1.0, 0)
         
-        cv2.imshow("SERVER MASK (Black)", mask)
+        cv2.imshow("SERVER MASK (Black)", combined)
         
         if cv2.waitKey(1) & 0xFF == ord('q'): break
     cap.release()
