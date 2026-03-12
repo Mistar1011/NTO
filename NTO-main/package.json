@@ -1,0 +1,15 @@
+{
+  "name": "nto-monorepo",
+  "private": true,
+  "packageManager": "npm@10.8.2", 
+  "workspaces": [
+    "apps/*"
+  ],
+    "scripts": {
+    "dev": "chcp 65001 > nul && turbo dev",
+    "build": "turbo build"
+    },
+  "devDependencies": {
+    "turbo": "^2.8.11"
+  }
+}
