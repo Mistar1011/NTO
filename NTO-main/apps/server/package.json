@@ -1,0 +1,7 @@
+{
+  "name": "api-server",
+  "scripts": {
+    "dev": ".\\venv\\Scripts\\python.exe -X utf8 main.py",
+    "install-deps": ".\\venv\\Scripts\\pip.exe install -r requirements.txt"
+  }
+}
